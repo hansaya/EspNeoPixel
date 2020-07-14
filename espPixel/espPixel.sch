@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
@@ -9027,7 +9027,7 @@ BJT configuration in SOT23 package. MMBT2222 is the common NPN we use. Double ch
 </classes>
 <parts>
 <part name="U$1" library="MIC2101" deviceset="MIC2101" device="QFN16" package3d_urn="urn:adsk.eagle:package:21055/1"/>
-<part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-EU" device="CEP125" package3d_urn="urn:adsk.eagle:package:25968/1" value="4uh"/>
+<part name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="L-EU" device="CEP125" package3d_urn="urn:adsk.eagle:package:25968/1" value="1.5uh"/>
 <part name="Q2" library="SIR414DP-T1-GE3" deviceset="SIR414DP-T1-GE3" device=""/>
 <part name="IC1" library="74LVC1T45GW_125" deviceset="74LVC1T45GW,125" device=""/>
 <part name="F1" library="f-lf-omniblok-s" deviceset="SMD-MICRO-FUSE" device="-BLOCK"/>
@@ -9814,8 +9814,6 @@ LED: IO13</text>
 <junction x="38.862" y="-46.736"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 <junction x="18.542" y="-46.736"/>
-<pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="18.542" y1="-39.116" x2="18.542" y2="-46.736" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="43.942" y1="-49.276" x2="43.942" y2="-46.736" width="0.1524" layer="91"/>
 <junction x="43.942" y="-46.736"/>
@@ -9939,20 +9937,6 @@ LED: IO13</text>
 <pinref part="5-12V" gate="G$1" pin="2"/>
 <wire x1="92.202" y1="-77.216" x2="92.202" y2="-74.676" width="0.1524" layer="91"/>
 <junction x="92.202" y="-77.216"/>
-</segment>
-</net>
-<net name="N$7" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="PVDD"/>
-<pinref part="U$1" gate="G$1" pin="VDD"/>
-<wire x1="43.942" y1="-69.596" x2="43.942" y2="-72.136" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="41.402" y1="-74.676" x2="43.942" y2="-74.676" width="0.1524" layer="91"/>
-<wire x1="43.942" y1="-74.676" x2="43.942" y2="-72.136" width="0.1524" layer="91"/>
-<junction x="43.942" y="-72.136"/>
-<pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="54.102" y1="-79.756" x2="54.102" y2="-72.136" width="0.1524" layer="91"/>
-<wire x1="54.102" y1="-72.136" x2="43.942" y2="-72.136" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -10356,6 +10340,27 @@ LED: IO13</text>
 <junction x="69.342" y="-59.436"/>
 <label x="59.182" y="-59.436" size="1.778" layer="95" rot="R270"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
+</segment>
+</net>
+<net name="VDD" class="0">
+<segment>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="18.542" y1="-39.116" x2="21.59" y2="-39.116" width="0.1524" layer="91"/>
+<wire x1="21.59" y1="-39.116" x2="21.59" y2="-39.37" width="0.1524" layer="91"/>
+<label x="19.05" y="-38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="PVDD"/>
+<pinref part="U$1" gate="G$1" pin="VDD"/>
+<wire x1="43.942" y1="-69.596" x2="43.942" y2="-72.136" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="41.402" y1="-74.676" x2="43.942" y2="-74.676" width="0.1524" layer="91"/>
+<wire x1="43.942" y1="-74.676" x2="43.942" y2="-72.136" width="0.1524" layer="91"/>
+<junction x="43.942" y="-72.136"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="54.102" y1="-79.756" x2="54.102" y2="-72.136" width="0.1524" layer="91"/>
+<wire x1="54.102" y1="-72.136" x2="43.942" y2="-72.136" width="0.1524" layer="91"/>
+<label x="48.26" y="-72.39" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
