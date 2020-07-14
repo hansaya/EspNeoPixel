@@ -3558,7 +3558,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="MOUSER_PART_NUMBER" value="771-74LVC1T45GW125" x="37.084" y="10.16" size="1.778" layer="27" display="off"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Nexperia/74LVC1T45GW125?qs=jquClx72t9Aoi%252BsTRKaaAg%3D%3D" x="37.084" y="10.16" size="1.778" layer="27" display="off"/>
 </element>
-<element name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="CEP125" package3d_urn="urn:adsk.eagle:package:25968/1" value="1.5uh" x="19.558" y="26.924" smashed="yes" rot="R90">
+<element name="L1" library="rcl" library_urn="urn:adsk.eagle:library:334" package="CEP125" package3d_urn="urn:adsk.eagle:package:25968/1" value="4.7uh" x="19.558" y="26.924" smashed="yes" rot="R90">
 <attribute name="POPULARITY" value="0" x="27.178" y="47.244" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="L" x="27.178" y="47.244" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="20.828" y="21.844" size="0.8128" layer="27" rot="R90"/>
@@ -3808,7 +3808,7 @@ Please make sure your boards conform to these design rules.
 <attribute name="PACKAGE" value="SOIC-14 E-Switch" x="2.286" y="70.866" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PRICE" value="None" x="2.286" y="70.866" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C20" library="microbuilder" package="0603-NO@1" value="0.4.7nf" x="13.462" y="11.684" smashed="yes" rot="R90">
+<element name="C20" library="microbuilder" package="0603-NO@1" value="4.7nf" x="13.462" y="11.684" smashed="yes" rot="R90">
 <attribute name="VALUE" x="12.7" y="9.906" size="0.8128" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
 <element name="C21" library="microbuilder" package="0603-NO@1" value="4.7uf" x="14.224" y="2.54" smashed="yes">
