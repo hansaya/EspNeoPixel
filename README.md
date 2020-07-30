@@ -19,6 +19,6 @@ Use zip file within /cam folder to fabricate the board using your favorite pcb h
 
 Enjoy!
 
-![Top side of the board](espPixel/pics/top.jpg)
-![Bottom side of the board](espPixel/pics/bottom.jpg)
+![Top side of the board](espPixel/pics/top.JPG)
+![Bottom side of the board](espPixel/pics/bottom.JPG)
 ![Populated board](espPixel/pics/board_side.jpg)
