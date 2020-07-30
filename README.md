@@ -18,3 +18,7 @@ Features:
 Use zip file within /cam folder to fabricate the board using your favorite pcb house. Bom contains the parts list. Please note, I have not listed out all parts since I had most 0603 jelly beans parts at home. Use the schematic to get the full list.
 
 Enjoy!
+
+![Top side of the board](espPixel/pics/top.jpg)
+![Bottom side of the board](espPixel/pics/bottom.jpg)
+![Populated board](espPixel/pics/board_side.jpg)
