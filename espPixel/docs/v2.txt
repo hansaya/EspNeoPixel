@@ -1,0 +1,12 @@
+https://lcsc.com/product-detail/Power-Inductors_Gotrend-Tech-GSTC104P-1R5MN_C142426.html
+https://lcsc.com/product-detail/DC-DC-Converters_Texas-Instruments_LM3150MHX-NOPB_Texas-Instruments-Texas-Instruments-LM3150MHX-NOPB_C48112.html
+
+
+
+
+poe
+https://www.analog.com/media/en/technical-documentation/data-sheets/4276fa.pdf
+https://www.analog.com/media/en/technical-documentation/data-sheets/4275f.pdf
+
+https://www.ebay.com/itm/Commell-DC-PD-12VR-03-PoE-PD-Module-Compliant-IEEE802-3at-af-RJ45-connector/401625203147?hash=item5d82ba41cb:g:QlYAAOSw1fJb0sCB
+http://www.commell.com/Download/Manual/DC-PD_Manual_V15.pdf
